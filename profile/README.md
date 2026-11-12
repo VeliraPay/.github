@@ -16,7 +16,7 @@ VeliraPay lets businesses take crypto payments. You charge a customer with a pay
 | [PHP](https://github.com/VeliraPay/velirapay-php): charges, payment links, invoices, events and webhook verification | `composer require velirapay/velirapay-php` |
 | [Laravel](https://github.com/VeliraPay/velirapay-laravel): a facade for the API, and verified webhooks dispatched as Laravel events | `composer require velirapay/velirapay-laravel` |
 | [Node.js](https://github.com/VeliraPay/velirapay-node): the whole API typed for TypeScript, with no dependencies | `npm install velirapay` |
-| [Python](https://github.com/VeliraPay/velirapay-python): the whole API with type hints, on the standard library alone | Coming to PyPI |
+| [Python](https://github.com/VeliraPay/velirapay-python): the whole API with type hints, on the standard library alone | `pip install velirapay` |
 | [.NET](https://github.com/VeliraPay/velirapay-dotnet): an async, typed client for .NET 10 and later, with no dependencies | Coming to NuGet |
 | [WooCommerce](https://github.com/VeliraPay/velirapay-woocommerce): crypto payments at checkout through hosted VeliraPay invoices | [Download the plugin](https://github.com/VeliraPay/velirapay-woocommerce/releases/latest) |
 
