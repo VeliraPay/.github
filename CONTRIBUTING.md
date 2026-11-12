@@ -4,6 +4,6 @@ Thank you for helping. These libraries follow the VeliraPay API, so most changes
 
 - **Bugs:** open an issue with the library's version, your language and framework versions, what you ran and what came back. Leave out API keys, webhook signing secrets and customers' details.
 - **Something the API offers that a library doesn't:** the [API reference](https://velirapay.com/docs) and the [OpenAPI contract](https://velirapay.com/openapi.json) describe every endpoint and field. Say which one is missing.
-- **Pull requests:** keep each one to a single change, with tests, and run the library's checks first: `composer check` for PHP, Laravel and WooCommerce, `npm run check` for Node.js. A contribution is licensed under the repository's licence.
+- **Pull requests:** keep each one to a single change, with tests, and run the library's checks first, as its README's Development section lists them: `composer check` for PHP, Laravel and WooCommerce, `npm run check` for Node.js, the tests, mypy and ruff for Python, and `dotnet build -warnaserror` with `dotnet test` for .NET. A contribution is licensed under the repository's licence.
 
 For questions about your account or a payment, see [getting help](SUPPORT.md).
