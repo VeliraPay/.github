@@ -1,0 +1,15 @@
+name: Feature request
+description: Something the API offers that this library doesn't, or a change that would make it easier to use.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like?
+      description: If the API offers it already, link the page in the documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: What would it help you do?

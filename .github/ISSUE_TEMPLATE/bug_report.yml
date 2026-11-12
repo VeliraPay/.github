@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in this library doesn't work as the documentation says.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Leave out API keys, webhook signing secrets and customers' details. For a problem with your account or a payment, email contact@velirapay.com instead.
+  - type: input
+    id: version
+    attributes:
+      label: Library version
+      placeholder: "0.6.5"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Language and framework versions
+      placeholder: "PHP 8.4, Laravel 13"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you ran, what came back, including any error message, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code to reproduce it
+      render: text

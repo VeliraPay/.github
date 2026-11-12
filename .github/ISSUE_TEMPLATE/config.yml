@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Your account, a payment or a payout
+    url: https://velirapay.com/docs
+    about: Email contact@velirapay.com from the address your account uses. Please don't post account or payment details here.
+  - name: A security vulnerability
+    url: https://github.com/VeliraPay/.github/blob/main/SECURITY.md
+    about: Please report it privately, as the security policy says, not in a public issue.
+  - name: Service status
+    url: https://status.velirapay.com
+    about: Whether the dashboard, checkout and API are up.
